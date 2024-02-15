@@ -1,0 +1,19 @@
+.home{
+    color: #263238;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 40px;
+    width: 500px;
+}
+
+@media (max-width: 768px) {
+
+    .img_home{
+        display: none;
+    }
+  }

@@ -1,0 +1,115 @@
+.main_fibonacci{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.card_fibonacci{
+    background-color: #e31010;
+    border-radius: 0px 20px 20px 0px;
+    color: #ffffff;
+    box-shadow: 2px 2px 20px 2px  #838383;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    height: 40vh;
+}
+
+h1{  
+    margin-top: 10px;
+
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    width: 60%;
+    font-size: 15px;
+}
+
+input:hover{
+    background-color: #efefef;
+}
+
+input:focus-visible{
+    outline: 2px solid #9e8282;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    color: #000;
+    background-color: #ffffff;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #f8d5d5;
+    color: #e31010;
+    font-weight: 500;
+}
+
+
+.img_calculator{
+    width: 20vw;
+    height: 40vh;
+    border: 1px solid #b3b2b2;
+    box-shadow: 2px 2px 20px 2px  #aaaaaa;
+    border-radius: 10px 0px 0px 10px;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+
+    .main_fibonacci{
+        width: 40vw;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card_fibonacci{
+        border-radius: 10px;
+        width: 50vw;
+
+    }
+
+    .card_fibonacci h1{
+        width: 10vw;
+        text-align: center;
+    }
+
+    .card_fibonacci input{
+        border-radius: 10px;
+    }
+
+    .card_fibonacci button{
+        border-radius: 10px;
+    }
+
+    .img_calculator{
+        display: none;
+    }
+    
+  }
+
+  @media only screen and (max-width: 479px) {
+    
+    .card_fibonacci{
+        width: 70vw;
+    }
+
+    .card_fibonacci h1{
+        font-size: 20px;
+    }
+  }
+
+
+

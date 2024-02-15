@@ -1,0 +1,46 @@
+.main_invert{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card_invert{
+    background-color: #e31010;
+    border-radius: 0px 20px 20px 0px;
+    padding: 20px;
+    color: #ffffff;
+    box-shadow: 2px 2px 20px 2px  #838383;
+    
+}
+
+
+.img_book{
+    width: 25vw;
+    height: 50vh;
+    border: 1px solid #cfcccc;
+    box-shadow: 2px 2px 20px 2px  #b8b8b8;
+    border-radius: 10px 0px 0px 10px;
+}
+
+@media (max-width: 768px) {
+
+    .img_book{
+        display: none;
+    }
+
+    .card_invert{
+        border-radius: 10px;
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    
+    .card_invert input{
+        border-radius: 10px;
+    }
+
+    .card_invert button{
+        border-radius: 10px;
+    }
+  }
